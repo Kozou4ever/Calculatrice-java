@@ -4,11 +4,12 @@
     import DigitButton from './Buttons/DigitButton.vue';
     import ResetButton from './Buttons/ResetButton.vue';
     import OperationSubmit from './Buttons/OperationSubmit.vue';
+    import AllClearButton from './Buttons/AllClearButton.vue';
 </script>
 
 <template>
 <div class="grid grid-cols-4 gap-3 justify-items-center bg-gray-800/80 w-full h-auto rounded-t-lg py-6 px-4 mt-3">
-    <OtherButton content="AC"></OtherButton>
+    <AllClearButton content="AC"></AllClearButton>
     <OtherButton content="±" disabled></OtherButton>
     <OtherButton content="%" disabled></OtherButton>
     <OperationButton operation="÷"></OperationButton>
