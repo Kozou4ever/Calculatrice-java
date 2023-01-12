@@ -19,19 +19,19 @@ const toggleHidden = () => {
         </button>
         <!-- Dropdown menu -->
         <div id="dropdown" class="z-10 bg- rounded shadow w-24 bg-gray-700" :class="hidden ? 'hidden' : ''">
-            <ul class="py-1 text-xs text-gray-700 dark:text-gray-200 text-center"
+            <ul class="py-1 text-xs text text-gray-200 text-center"
                 aria-labelledby="dropdownDefaultButton">
                 <li>
                     <button class="block px-4 py-2 hover:bg-gray-800 w-full">Addition</button>
                 </li>
                 <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-800 ">Soustraction</a>
+                    <button class="block px-4 py-2 hover:bg-gray-800 w-full">Soustraction</button>
                 </li>
                 <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-800 ">Multiplication</a>
+                    <button class="block px-4 py-2 hover:bg-gray-800 w-full">Multiplication</button>
                 </li>
                 <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-800">Division</a>
+                    <button class="block px-4 py-2 hover:bg-gray-800 w-full">Division</button>
                 </li>
             </ul>
         </div>

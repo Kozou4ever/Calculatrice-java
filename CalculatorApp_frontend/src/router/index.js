@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Calculatrice from '../components/Calculatrice.vue';
-import OperationHistory from '../components/OperationHistory.vue';
+import Calculatrice from '../views/Calculatrice.vue';
+import OperationHistory from '../views/OperationHistory.vue';
 
 const routes = [
     { path: '/', name: 'calculatrice', component: Calculatrice },
