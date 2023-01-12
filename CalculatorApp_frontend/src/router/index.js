@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Calculatrice from '../views/Calculatrice.vue';
-import OperationHistory from '../views/OperationHistory.vue';
+import Calculatrice from '../views/CalculatriceView.vue';
+import Historique from '../views/HistoriqueView.vue';
 
 const routes = [
     { path: '/', name: 'calculatrice', component: Calculatrice },
-    {path: '/historique', name: 'historique', component: OperationHistory}
+    {path: '/historique', name: 'historique', component: Historique}
 ] 
 
 const router = createRouter({

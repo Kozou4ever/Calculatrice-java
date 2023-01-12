@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import OperationService from '../services/OperationService.js';
-import AnOperation from '../components/Operations/AnOperation.vue';
+import AnOperation from '../components/Operations/OperationHistory.vue';
 import DropdownList from '../components/DropdownList.vue';
 
 const operations = ref([])
