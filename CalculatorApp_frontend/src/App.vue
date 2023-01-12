@@ -1,8 +1,5 @@
 <script setup>
 import NavBar from './components/NavBar.vue';
-import InputOperation from './components/InputOperation.vue';
-import GlobalPad from './components/GlobalPad.vue'
-import OperationHistory from './components/OperationHistory.vue';
 
 </script>
 
